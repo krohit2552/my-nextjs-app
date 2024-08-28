@@ -1,3 +1,64 @@
+my-nextjs-app/
+│
+├── app/
+│   ├── api/
+│   │   ├── auth/
+│   │   │   ├── [...nextauth].js
+│   │   ├── products/
+│   │   │   ├── [id]/
+│   │   │   │   ├── index.js
+│   │   │   │   └── review.js
+│   │   ├── reviews/
+│   │   │   ├── index.js
+│   │   │   └── [id].js
+│   │   ├── user/
+│   │   │   ├── index.js
+│   ├── dashboard/
+│   │   ├── index.js
+│   │   ├── [product_id].js
+│   ├── profile/
+│   │   ├── index.js
+│   │   ├── my-submissions.js
+│   ├── pending-requests/
+│   │   ├── index.js
+│   │   └── [request_id].js
+│   ├── register/
+│   │   ├── index.js
+│   ├── login/
+│   │   ├── index.js
+│   ├── layout.js
+│   ├── page.js
+│
+├── components/
+│   ├── AuthForm.js
+│   ├── ProductForm.js
+│   ├── ReviewCard.js
+│   ├── Sidebar.js
+│
+├── lib/
+│   ├── dbConnect.js
+│   ├── auth.js
+│   ├── firebase.js
+│
+├── models/
+│   ├── User.js
+│   ├── Product.js
+│   ├── Review.js
+│
+└── styles/
+    ├── globals.css
+    ├── Product.module.css
+
+
+
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
